@@ -100,8 +100,6 @@ class AwsCognito
     public static function ignoreMigrations()
     {
         static::$runsMigrations = false;
-
-        return new static;
     } //Function ends
 
 
